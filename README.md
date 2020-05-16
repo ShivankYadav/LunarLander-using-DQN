@@ -7,8 +7,11 @@ https://gym.openai.com/envs/LunarLander-v2/
 ## Install requirements
 Simply execute this on your shell: ```$pip install -r ```[requirements.txt](https://github.com/ShivankYadav/LunarLander-using-DQN/blob/master/requirements.txt)
 **Note**: The user must install pytorch according to the specifications on his/her workspace. I used 
-torch                     1.4.0
-torchvision               0.4.2
+torch                     1.4.0 and 
+torchvision               0.4.2.
+
+You can skip running the dqn method to avoid train and just run the code using pretrained weights in [checkpoint.pth](https://github.com/ShivankYadav/LunarLander-using-DQN/blob/master/checkpoint.pth) i have provided.
+
 
 ## Algorithm used:
 !["Algorithm_image"](https://github.com/ShivankYadav/LunarLander-using-DQN/blob/master/images/dqn_algo.png)
