@@ -1,12 +1,14 @@
-# Q-Learning-on-Blackjack
-Teaching an Agent to play Blackjack using Q-Learning. The code is explained in the [Monte_Carlo.ipynb](https://github.com/ShivankYadav/Q-Learning-on-Blackjack/blob/master/Monte_Carlo.ipynb). You guys are welcome to imporve the hyperparameters or even the algorithm for better performance. I have also provided a [presentation](https://github.com/ShivankYadav/Q-Learning-on-Blackjack/blob/master/MinorProject.pptx) and a [report](https://github.com/ShivankYadav/Q-Learning-on-Blackjack/blob/master/Report.docx) to explain **Monte Carlo Control Algorithms**.
+# Deep Q-Learning on LunarLander-v2
+We apply DQN algorithm to make and artificial agent learn how to land space-craft on moon. The code is explained in the [Deep_Q_network.ipynb](https://github.com/ShivankYadav/LunarLander-using-DQN/blob/master/Deep_Q_Network.ipynb). You guys are welcome to imporve the hyperparameters or even the algorithm for better performance(check step 5:Explore of the notebook). I have also provided a [PDF_research_paper](https://github.com/ShivankYadav/Q-Learning-on-Blackjack/blob/master/MinorProject.pptx) to explain **Deep Q-Networks**. This project is based on this research [paper](https://www.nature.com/articles/nature14236).
 
 ## Environment Description
-https://github.com/openai/gym/blob/master/gym/envs/toy_text/blackjack.py
+https://gym.openai.com/envs/LunarLander-v2/
 
 ## Install requirements
-Simply execute this on your shell: ```$pip install -r ```[requirements.txt](https://github.com/ShivankYadav/Q-Learning-on-Blackjack/blob/master/requirements.txt)
-For visualizations, I was not able to install basemap using pip. So I used 
-```conda install -c anaconda basemap```
+Simply execute this on your shell: ```$pip install -r ```[requirements.txt](https://github.com/ShivankYadav/LunarLander-using-DQN/blob/master/requirements.txt)
+**Note**: The user must install pytorch according to the specifications on his/her workspace. I used 
+torch                     1.4.0
+torchvision               0.4.2
+
 ## Algorithm used:
-!["Algorithm_image"](https://github.com/ShivankYadav/Q-Learning-on-Blackjack/blob/master/images/algos.png)
+!["Algorithm_image"](https://github.com/ShivankYadav/LunarLander-using-DQN/blob/master/images/dqn_algo.png)
