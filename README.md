@@ -12,3 +12,6 @@ torchvision               0.4.2
 
 ## Algorithm used:
 !["Algorithm_image"](https://github.com/ShivankYadav/LunarLander-using-DQN/blob/master/images/dqn_algo.png)
+
+## Output
+![Gif](https://www.google.com/url?sa=i&url=https%3A%2F%2Fjfpettit.svbtle.com%2Frlpack&psig=AOvVaw1qtA8dLRKTzC3T4skt5Jqc&ust=1589713585257000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLiN896euOkCFQAAAAAdAAAAABAD)
